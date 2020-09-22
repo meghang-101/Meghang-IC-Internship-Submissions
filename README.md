@@ -31,3 +31,12 @@ In 0-10V voltage mode, the analog lines will deliver a voltage which increases l
 ![](voltage-output.PNG)
 
 The Serial communication can be achieved and calibrated from the output voltage value to the equivalent distance value.
+
+## RS232 and TTL
+Most of the Industrial grade sensors have a RS232 output. So Serial communication with Arduino or Raspberry Pi will only be possible with RS232 output. Since the output voltage ranges to +/-13V, it is not possible to interface the RS232 directly to the Arduino or Raspberry Pi. Thus, we need a RS232 to TTL converter shield. The TTL output ranges from 3.3V to 5V.
+
+The whole system would look something like this:
+
+![rs232proteuspic.PNG](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/LaserDistance/rs232proteuspic.PNG)
+
+In this design, the right side headers are connected directly to the RS232 output from the Laser Sensor. Then, the outputs are feeded to their respective ports on a RS232-TTL converter shield. The output from the TTL is directly interfaced with the Arduino. The TTl output has a RXT and TXT output which is directly connected to the TXT and RXT port of the Arduino respectively.
