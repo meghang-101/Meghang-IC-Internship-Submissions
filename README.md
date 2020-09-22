@@ -37,6 +37,8 @@ Most of the Industrial grade sensors have a RS232 output. So Serial communicatio
 
 The whole system would look something like this:
 
-![rs232proteuspic.PNG](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/LaserDistance/rs232proteuspic.PNG)
+![](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/LaserDistance/rs232proteuspic.PNG)
 
 In this design, the right side headers are connected directly to the RS232 output from the Laser Sensor. Then, the outputs are feeded to their respective ports on a RS232-TTL converter shield. The output from the TTL is directly interfaced with the Arduino. The TTl output has a RXT and TXT output which is directly connected to the TXT and RXT port of the Arduino respectively.
+
+The file [RS232Proteus](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/LaserDistance/LaserDistance_Rs232.pdsprj) has the proteus design.
