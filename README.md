@@ -42,3 +42,5 @@ The whole system would look something like this:
 In this design, the right side headers are connected directly to the RS232 output from the Laser Sensor. Then, the outputs are feeded to their respective ports on a RS232-TTL converter shield. The output from the TTL is directly interfaced with the Arduino. The TTl output has a RXT and TXT output which is directly connected to the TXT and RXT port of the Arduino respectively.
 
 The file [RS232Proteus](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/LaserDistance/LaserDistance_Rs232.pdsprj) has the proteus design. Note that the output TTl pins that are connected to Arduino Mega in this example, have to be connected to the TX and RX pins of Arduino for Serial Communication.
+
+One disadventage of using RS232 is that there is a chance of data leak and binary noise that can be added to the signals if the data is transferred over long distances. A solution to that is having RS484 as our Laser Output medium. RS484 output with the same connections to the Arduino will prevent data leak over long distances.
