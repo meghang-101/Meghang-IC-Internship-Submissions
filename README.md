@@ -44,3 +44,5 @@ In this design, the right side headers are connected directly to the RS232 outpu
 The file [RS232Proteus](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/LaserDistance/LaserDistance_Rs232.pdsprj) has the proteus design. Note that the output TTl pins that are connected to Arduino Mega in this example, have to be connected to the TX and RX pins of Arduino for Serial Communication.
 
 One disadventage of using RS232 is that there is a chance of data leak and binary noise that can be added to the signals if the data is transferred over long distances. A solution to that is having RS484 as our Laser Output medium. RS484 output with the same connections to the Arduino will prevent data leak over long distances.
+
+The Arduino source code is here
