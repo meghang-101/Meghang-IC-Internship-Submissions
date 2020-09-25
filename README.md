@@ -51,3 +51,13 @@ def my_client():
 my_client()
 ```
 In the next example, the Raspberry Pi sends distance data to the same web server [rasp002.py](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ServerCommunication/rasp002.py). The code for the new example as a server is [rasp_server.py](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ServerCommunication/rasp_server.py)
+
+We can even consider node.js as a viable option for our server client and host communication. The file [app.js](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ServerCommunication/app.js) has the node file source code example.
+
+Use this command in the command prompt to run the file.
+
+```bash
+cd ~/Meghang-IC-Internship-Submissions
+node app.js COM16  //instead of COM16 use the Serial port to which your Arduino is connected.
+```
+Run the Serial Monitor in the Arduino IDE and you will observe data being logged into the server.
