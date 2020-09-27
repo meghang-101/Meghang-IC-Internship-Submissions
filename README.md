@@ -31,4 +31,4 @@ The LAC-2 Adapter comes with a standard software that enables Visualization of t
 
 ![](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/UM18_Sensor/LAC03.PNG)
 
-For more reference, visit [LinkControlSoftware](file:///C:/Users/megha/Downloads/ba_eng_linkcontrol.pdf).
+For more reference, visit [LinkControlSoftware](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/UM18_Sensor/LinkControlSoftware.pdf).
