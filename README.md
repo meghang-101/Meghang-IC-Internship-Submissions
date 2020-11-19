@@ -13,4 +13,8 @@ Download the following Software [PLX-DAQ](https://plx-daq.software.informer.com/
 
 After uploading the source code to arduino, Open the Serial Monitor at a baud rate of 9600ms.
 
-Open the Excel Sheet. A setup will be prompted. 
+Open the Excel Sheet. Enable all permissions and press "OK". A setup will be prompted. 
+
+![](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ESP8266_server/excelpic.PNG)
+
+Select the proper PORT CONNECTION, BAUD RATE and select the DOWNLOAD DATA and then click CONNECT. Data will log in the excel sheet.
