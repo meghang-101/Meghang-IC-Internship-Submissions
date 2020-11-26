@@ -6,7 +6,7 @@ The following file [protues_circuit_schematic](https://github.com/meghang-101/Me
 
 ![](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ESP8266_server/assemblypic.PNG)
 
-The following is the code for the Arduino [Arduino_Code](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ESP8266_server/Ultra.ino). Upload this code to the Arduino Mega board.
+The following is the code for the Arduino [Arduino_Code](https://github.com/meghang-101/Meghang-IC-Internship-Submissions/blob/ESP8266_server/final.ino). Upload this code to the Arduino Mega board.
 
 # EXCEL LOGGING
 Download the following Software [PLX-DAQ](https://plx-daq.software.informer.com/download/) and Install it. Once the software is installed, A folder will be added to the user's desktop. Inside that folder are 2 files- Excel Sheet, Help.
